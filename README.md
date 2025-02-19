@@ -7,12 +7,15 @@ Requirements:
 Idle State:
 - Allow item selection.
 - Disallow dispensing items and inserting coins.
+
 ItemSelected State:
 - Allow inserting coins and dispensing items.
 - Disallow item selection.
+
 Dispensing State:
 - Allow no operations.
 - Automatically transition back to the "Idle" state after dispensing is complete.
+
 OutOfOrder State:
 - Disallow all operations.
 
